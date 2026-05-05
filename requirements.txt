@@ -1,7 +1,8 @@
 streamlit
 pandas
 numpy==1.26.4
-scikit-learn==1.8.0
+scikit-learn
 shap
 joblib
 matplotlib
+dice_ml
