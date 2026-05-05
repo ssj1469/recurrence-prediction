@@ -1,0 +1,133 @@
+{
+    "num_cols": [
+        "Age"
+    ],
+    "cat_cols": [
+        "Gender",
+        "Smoking",
+        "Hx Smoking",
+        "Hx Radiothreapy",
+        "Thyroid Function",
+        "Physical Examination",
+        "Adenopathy",
+        "Pathology",
+        "Focality",
+        "Risk",
+        "T",
+        "N",
+        "M",
+        "Stage",
+        "Response"
+    ],
+    "selected_features": [
+        "Adenopathy",
+        "Age",
+        "Focality",
+        "Gender",
+        "Hx Radiothreapy",
+        "Hx Smoking",
+        "M",
+        "N",
+        "Pathology",
+        "Physical Examination",
+        "Response",
+        "Risk",
+        "Smoking",
+        "Stage",
+        "T",
+        "Thyroid Function"
+    ],
+    "num_ranges": {
+        "Age": {
+            "min": 15.0,
+            "max": 82.0,
+            "mean": 41.04248366013072
+        }
+    },
+    "cat_values": {
+        "Gender": [
+            "F",
+            "M"
+        ],
+        "Smoking": [
+            "No",
+            "Yes"
+        ],
+        "Hx Smoking": [
+            "No",
+            "Yes"
+        ],
+        "Hx Radiothreapy": [
+            "No",
+            "Yes"
+        ],
+        "Thyroid Function": [
+            "Clinical Hyperthyroidism",
+            "Clinical Hypothyroidism",
+            "Euthyroid",
+            "Subclinical Hyperthyroidism",
+            "Subclinical Hypothyroidism"
+        ],
+        "Physical Examination": [
+            "Diffuse goiter",
+            "Multinodular goiter",
+            "Normal",
+            "Single nodular goiter-left",
+            "Single nodular goiter-right"
+        ],
+        "Adenopathy": [
+            "Bilateral",
+            "Extensive",
+            "Left",
+            "No",
+            "Posterior",
+            "Right"
+        ],
+        "Pathology": [
+            "Follicular",
+            "Hurthel cell",
+            "Micropapillary",
+            "Papillary"
+        ],
+        "Focality": [
+            "Multi-Focal",
+            "Uni-Focal"
+        ],
+        "Risk": [
+            "High",
+            "Intermediate",
+            "Low"
+        ],
+        "T": [
+            "T1a",
+            "T1b",
+            "T2",
+            "T3a",
+            "T3b",
+            "T4a",
+            "T4b"
+        ],
+        "N": [
+            "N0",
+            "N1a",
+            "N1b"
+        ],
+        "M": [
+            "M0",
+            "M1"
+        ],
+        "Stage": [
+            "I",
+            "II",
+            "III",
+            "IVA",
+            "IVB"
+        ],
+        "Response": [
+            "Biochemical Incomplete",
+            "Excellent",
+            "Indeterminate",
+            "Structural Incomplete"
+        ]
+    }
+}

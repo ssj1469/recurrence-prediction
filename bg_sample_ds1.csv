@@ -1,0 +1,201 @@
+﻿Adenopathy,Age,Focality,Gender,Hx Radiothreapy,Hx Smoking,M,N,Pathology,Physical Examination,Response,Risk,Smoking,Stage,T,Thyroid Function
+Bilateral,30,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+Left,45,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+Right,33,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Clinical Hypothyroidism
+Bilateral,68,Multi-Focal,M,No,Yes,M0,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,Yes,III,T3b,Subclinical Hypothyroidism
+Bilateral,49,Multi-Focal,M,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,No,I,T4a,Euthyroid
+No,42,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N0,Papillary,Diffuse goiter,Excellent,Low,No,I,T2,Clinical Hyperthyroidism
+No,27,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,57,Uni-Focal,F,No,No,M0,N0,Follicular,Multinodular goiter,Excellent,Low,Yes,I,T2,Euthyroid
+No,34,Uni-Focal,F,No,Yes,M0,N0,Micropapillary,Multinodular goiter,Excellent,Low,No,I,T1a,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+Right,38,Multi-Focal,M,No,Yes,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,Yes,I,T2,Euthyroid
+No,27,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,33,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,52,Multi-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Indeterminate,Low,No,I,T1a,Euthyroid
+Right,36,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,29,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,28,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Clinical Hyperthyroidism
+Left,23,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,30,Uni-Focal,F,No,No,M0,N0,Micropapillary,Normal,Excellent,Low,No,I,T1a,Clinical Hyperthyroidism
+No,73,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+No,43,Multi-Focal,M,No,No,M0,N0,Micropapillary,Multinodular goiter,Excellent,Low,No,I,T1a,Euthyroid
+Bilateral,48,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+Extensive,31,Multi-Focal,M,Yes,No,M1,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,High,Yes,II,T4a,Euthyroid
+No,29,Uni-Focal,F,No,No,M0,N0,Follicular,Single nodular goiter-left,Structural Incomplete,Low,Yes,I,T2,Euthyroid
+No,34,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Structural Incomplete,Low,No,I,T3a,Euthyroid
+Left,62,Multi-Focal,M,No,No,M1,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,High,Yes,IVB,T4a,Euthyroid
+Right,54,Multi-Focal,M,No,No,M0,N1b,Hurthel cell,Single nodular goiter-left,Structural Incomplete,Intermediate,Yes,II,T4a,Euthyroid
+Bilateral,65,Multi-Focal,F,No,Yes,M0,N1b,Papillary,Multinodular goiter,Biochemical Incomplete,Intermediate,No,II,T3a,Euthyroid
+No,42,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+Right,31,Multi-Focal,M,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,Yes,I,T1b,Euthyroid
+No,55,Multi-Focal,M,No,No,M0,N0,Papillary,Multinodular goiter,Indeterminate,Intermediate,No,II,T3a,Euthyroid
+No,23,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+Right,31,Uni-Focal,F,No,Yes,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,44,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-left,Excellent,Low,No,I,T1a,Euthyroid
+No,34,Uni-Focal,F,No,No,M0,N0,Micropapillary,Diffuse goiter,Excellent,Low,No,I,T1a,Euthyroid
+No,28,Uni-Focal,M,No,No,M0,N0,Papillary,Single nodular goiter-left,Indeterminate,Low,Yes,I,T3a,Euthyroid
+No,50,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,30,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T1b,Subclinical Hyperthyroidism
+No,51,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T1b,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Clinical Hypothyroidism
+No,41,Uni-Focal,F,No,Yes,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Clinical Hyperthyroidism
+No,27,Uni-Focal,F,No,No,M0,N0,Papillary,Diffuse goiter,Excellent,Low,No,I,T1b,Clinical Hyperthyroidism
+Right,51,Uni-Focal,M,No,No,M0,N1b,Papillary,Single nodular goiter-right,Indeterminate,Intermediate,No,I,T2,Clinical Hyperthyroidism
+No,20,Uni-Focal,F,No,No,M0,N1a,Papillary,Multinodular goiter,Excellent,Intermediate,No,I,T2,Euthyroid
+No,50,Uni-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Excellent,Low,No,I,T1a,Clinical Hyperthyroidism
+No,73,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,II,T3a,Euthyroid
+No,30,Multi-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Biochemical Incomplete,Low,No,I,T3a,Euthyroid
+No,25,Multi-Focal,F,No,No,M0,N0,Follicular,Multinodular goiter,Excellent,Low,No,I,T3a,Clinical Hyperthyroidism
+No,75,Multi-Focal,M,Yes,No,M1,N0,Follicular,Single nodular goiter-left,Structural Incomplete,High,Yes,IVB,T2,Euthyroid
+Bilateral,72,Multi-Focal,M,No,Yes,M1,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,Yes,IVB,T4b,Euthyroid
+Right,40,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,22,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Subclinical Hyperthyroidism
+No,40,Uni-Focal,F,No,Yes,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,25,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T1b,Euthyroid
+No,62,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N1a,Follicular,Single nodular goiter-left,Biochemical Incomplete,Intermediate,No,I,T3a,Euthyroid
+Right,23,Uni-Focal,F,No,Yes,M0,N1a,Papillary,Single nodular goiter-right,Structural Incomplete,Intermediate,No,I,T3b,Euthyroid
+No,42,Multi-Focal,M,No,No,M0,N0,Papillary,Single nodular goiter-right,Structural Incomplete,Low,No,I,T3a,Euthyroid
+No,63,Uni-Focal,F,No,No,M0,N0,Follicular,Single nodular goiter-right,Indeterminate,Intermediate,No,II,T3a,Euthyroid
+No,21,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+Bilateral,46,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Indeterminate,Intermediate,No,I,T3a,Euthyroid
+No,26,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,44,Uni-Focal,M,No,No,M0,N0,Follicular,Single nodular goiter-right,Excellent,Low,Yes,I,T2,Euthyroid
+No,29,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,45,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Biochemical Incomplete,Low,No,I,T2,Euthyroid
+Bilateral,71,Multi-Focal,M,No,Yes,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,Yes,III,T4a,Subclinical Hypothyroidism
+Right,21,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,Low,No,I,T2,Euthyroid
+No,20,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Right,51,Uni-Focal,F,No,Yes,M0,N0,Hurthel cell,Single nodular goiter-right,Indeterminate,Low,No,I,T3a,Euthyroid
+No,27,Multi-Focal,F,No,No,M0,N0,Hurthel cell,Single nodular goiter-right,Excellent,Low,No,I,T3a,Clinical Hypothyroidism
+No,29,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+Right,72,Uni-Focal,M,Yes,Yes,M1,N1b,Papillary,Single nodular goiter-right,Biochemical Incomplete,High,Yes,IVB,T4b,Euthyroid
+No,44,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,25,Uni-Focal,F,Yes,Yes,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+No,54,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T1b,Euthyroid
+Left,48,Multi-Focal,F,No,No,M0,N1a,Hurthel cell,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3b,Clinical Hyperthyroidism
+No,72,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Indeterminate,Low,No,I,T2,Subclinical Hypothyroidism
+No,30,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,29,Uni-Focal,F,No,No,M0,N1a,Papillary,Multinodular goiter,Indeterminate,Low,No,I,T2,Euthyroid
+No,35,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Bilateral,46,Uni-Focal,M,No,No,M1,N1b,Follicular,Single nodular goiter-left,Structural Incomplete,High,Yes,II,T4b,Euthyroid
+Extensive,26,Uni-Focal,F,No,No,M0,N1b,Papillary,Normal,Structural Incomplete,Intermediate,No,I,T1a,Euthyroid
+No,33,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,63,Uni-Focal,F,No,No,M0,N0,Papillary,Normal,Biochemical Incomplete,Low,No,I,T2,Euthyroid
+No,22,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Clinical Hypothyroidism
+No,29,Uni-Focal,F,No,No,M0,N0,Follicular,Multinodular goiter,Excellent,Low,No,I,T1b,Euthyroid
+No,67,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Biochemical Incomplete,High,Yes,IVA,T4a,Subclinical Hypothyroidism
+No,40,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+Bilateral,67,Uni-Focal,M,No,Yes,M0,N0,Papillary,Multinodular goiter,Biochemical Incomplete,Intermediate,Yes,II,T3a,Euthyroid
+No,27,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Clinical Hypothyroidism
+No,32,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T3a,Euthyroid
+No,41,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Biochemical Incomplete,Low,No,I,T3a,Euthyroid
+No,32,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Bilateral,52,Multi-Focal,F,No,No,M0,N0,Hurthel cell,Single nodular goiter-left,Structural Incomplete,Low,Yes,I,T3a,Euthyroid
+No,40,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,31,Uni-Focal,M,No,Yes,M0,N0,Follicular,Single nodular goiter-left,Indeterminate,Low,Yes,I,T3a,Euthyroid
+No,37,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-left,Excellent,Low,No,I,T1a,Euthyroid
+No,26,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,26,Uni-Focal,M,No,No,M0,N0,Micropapillary,Single nodular goiter-left,Excellent,Low,No,I,T1a,Euthyroid
+No,37,Multi-Focal,F,No,No,M1,N1a,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,No,II,T3b,Subclinical Hypothyroidism
+Left,44,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,No,I,T3b,Euthyroid
+No,36,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Indeterminate,Low,No,I,T1b,Euthyroid
+Right,21,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T3a,Euthyroid
+Bilateral,68,Multi-Focal,F,No,No,M1,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,No,IVB,T4a,Euthyroid
+No,40,Uni-Focal,F,No,No,M0,N1a,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,32,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,33,Uni-Focal,M,No,No,M0,N0,Papillary,Multinodular goiter,Structural Incomplete,Low,No,I,T2,Euthyroid
+No,22,Multi-Focal,M,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T1b,Euthyroid
+Bilateral,27,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,53,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Indeterminate,Intermediate,No,I,T3a,Euthyroid
+Right,62,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,II,T3a,Euthyroid
+Bilateral,26,Multi-Focal,F,No,No,M0,N1b,Hurthel cell,Single nodular goiter-left,Structural Incomplete,High,Yes,I,T4a,Euthyroid
+No,56,Multi-Focal,F,No,No,M0,N0,Follicular,Single nodular goiter-left,Structural Incomplete,Low,No,I,T3a,Euthyroid
+No,52,Multi-Focal,M,No,No,M0,N0,Micropapillary,Multinodular goiter,Indeterminate,Low,Yes,I,T1a,Euthyroid
+No,19,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T3a,Euthyroid
+Right,44,Multi-Focal,M,No,No,M1,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,High,Yes,II,T3a,Euthyroid
+No,38,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,24,Uni-Focal,F,No,No,M0,N0,Follicular,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,80,Multi-Focal,M,No,No,M0,N0,Hurthel cell,Single nodular goiter-left,Structural Incomplete,Intermediate,Yes,II,T4a,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N0,Follicular,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Bilateral,67,Multi-Focal,M,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,Yes,IVA,T4b,Euthyroid
+No,38,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,34,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+Right,53,Uni-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,No,I,T4a,Euthyroid
+No,26,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,30,Uni-Focal,F,No,No,M0,N0,Papillary,Normal,Indeterminate,Low,No,I,T2,Euthyroid
+Bilateral,37,Multi-Focal,M,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,49,Uni-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Excellent,Low,No,I,T1a,Euthyroid
+No,45,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T3a,Euthyroid
+Right,18,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,Intermediate,No,I,T1b,Euthyroid
+No,19,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,43,Uni-Focal,F,No,Yes,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+Left,32,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,58,Multi-Focal,F,No,No,M0,N1a,Papillary,Multinodular goiter,Indeterminate,Intermediate,No,II,T3a,Euthyroid
+No,38,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T1b,Euthyroid
+Left,29,Uni-Focal,F,No,No,M0,N1a,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T3a,Euthyroid
+No,50,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,51,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,76,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Clinical Hypothyroidism
+No,31,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+No,62,Multi-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Excellent,Low,No,I,T1a,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N1a,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Bilateral,24,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Excellent,Intermediate,No,I,T2,Clinical Hypothyroidism
+No,28,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Left,48,Uni-Focal,M,No,No,M0,N1a,Papillary,Single nodular goiter-left,Indeterminate,Intermediate,No,I,T2,Euthyroid
+No,70,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+Left,36,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Indeterminate,Intermediate,No,I,T3a,Euthyroid
+No,29,Multi-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,44,Uni-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Indeterminate,Low,No,I,T1a,Euthyroid
+Left,82,Uni-Focal,M,No,No,M0,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,Intermediate,Yes,II,T3b,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N1a,Papillary,Single nodular goiter-right,Indeterminate,Low,Yes,I,T2,Clinical Hyperthyroidism
+No,42,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Indeterminate,Low,No,I,T1a,Euthyroid
+Right,29,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,37,Multi-Focal,F,No,No,M0,N0,Hurthel cell,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,38,Uni-Focal,F,No,No,M0,N0,Micropapillary,Diffuse goiter,Excellent,Low,No,I,T1a,Clinical Hyperthyroidism
+Bilateral,60,Multi-Focal,M,No,No,M0,N1b,Papillary,Single nodular goiter-right,Structural Incomplete,Intermediate,No,II,T3a,Euthyroid
+No,70,Multi-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Indeterminate,Low,No,I,T3a,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N0,Micropapillary,Multinodular goiter,Excellent,Intermediate,No,I,T1a,Clinical Hypothyroidism
+No,44,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Euthyroid
+No,35,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Indeterminate,Low,No,I,T2,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T1b,Euthyroid
+Bilateral,15,Multi-Focal,F,No,No,M0,N1b,Papillary,Normal,Structural Incomplete,Intermediate,No,I,T3a,Euthyroid
+No,64,Multi-Focal,F,No,Yes,M1,N0,Follicular,Multinodular goiter,Structural Incomplete,High,No,IVB,T4a,Euthyroid
+No,35,Multi-Focal,F,No,No,M0,N0,Papillary,Multinodular goiter,Excellent,Low,No,I,T2,Euthyroid
+No,28,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Indeterminate,Low,No,I,T2,Euthyroid
+No,33,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,37,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,23,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T1b,Euthyroid
+No,37,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,42,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,75,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,59,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-left,Excellent,Low,No,I,T1a,Euthyroid
+Right,22,Multi-Focal,F,No,No,M0,N1a,Papillary,Multinodular goiter,Structural Incomplete,Intermediate,No,I,T3b,Euthyroid
+No,41,Multi-Focal,M,No,No,M0,N0,Hurthel cell,Single nodular goiter-right,Excellent,Intermediate,Yes,I,T3a,Euthyroid
+No,31,Uni-Focal,F,No,No,M0,N0,Micropapillary,Diffuse goiter,Excellent,Low,No,I,T1a,Clinical Hyperthyroidism
+No,43,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1b,Euthyroid
+No,31,Uni-Focal,M,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,Yes,I,T2,Euthyroid
+Right,36,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Indeterminate,Intermediate,No,I,T2,Euthyroid
+No,62,Uni-Focal,F,No,No,M0,N0,Hurthel cell,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,34,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T3a,Euthyroid
+No,56,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+Posterior,38,Multi-Focal,F,No,No,M1,N1b,Papillary,Single nodular goiter-left,Structural Incomplete,High,No,II,T3a,Euthyroid
+No,57,Uni-Focal,M,No,No,M0,N0,Papillary,Single nodular goiter-left,Excellent,Low,No,I,T2,Clinical Hyperthyroidism
+No,71,Multi-Focal,F,No,No,M1,N0,Follicular,Single nodular goiter-left,Structural Incomplete,High,Yes,IVB,T4a,Euthyroid
+No,56,Multi-Focal,F,No,No,M0,N1a,Papillary,Single nodular goiter-right,Excellent,Intermediate,No,II,T3a,Euthyroid
+No,52,Uni-Focal,F,No,No,M0,N0,Follicular,Multinodular goiter,Biochemical Incomplete,Low,No,I,T3a,Euthyroid
+Posterior,56,Multi-Focal,F,No,No,M0,N1b,Papillary,Multinodular goiter,Structural Incomplete,High,No,II,T4a,Euthyroid
+No,62,Multi-Focal,F,No,No,M0,N0,Hurthel cell,Single nodular goiter-left,Indeterminate,Intermediate,No,II,T3a,Euthyroid
+No,51,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,31,Uni-Focal,M,No,No,M0,N0,Papillary,Single nodular goiter-right,Excellent,Low,Yes,I,T2,Euthyroid
+Right,25,Multi-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-right,Excellent,Low,No,I,T2,Euthyroid
+No,51,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-right,Excellent,Low,No,I,T1a,Euthyroid
+No,38,Multi-Focal,F,No,No,M0,N0,Follicular,Multinodular goiter,Biochemical Incomplete,Low,No,I,T3a,Euthyroid
+No,37,Uni-Focal,F,No,No,M0,N0,Micropapillary,Single nodular goiter-left,Excellent,Low,No,I,T1a,Subclinical Hypothyroidism
+No,56,Uni-Focal,F,No,No,M0,N0,Papillary,Single nodular goiter-right,Biochemical Incomplete,Low,No,I,T2,Euthyroid
+No,33,Uni-Focal,F,No,No,M0,N1b,Papillary,Single nodular goiter-left,Indeterminate,Intermediate,No,I,T1b,Euthyroid
+No,68,Uni-Focal,F,No,No,M0,N0,Papillary,Diffuse goiter,Excellent,Low,No,I,T2,Clinical Hyperthyroidism
