@@ -2,7 +2,8 @@ streamlit
 pandas
 numpy==1.26.4
 scikit-learn==1.8.0
-shap
 joblib
 matplotlib
+shap
 dice_ml
+imbalanced-learn
