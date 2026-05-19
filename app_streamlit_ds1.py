@@ -34,40 +34,41 @@ with st.sidebar:
     submit = st.button("Predict and explain")
 
 if submit:
+
+    x_raw = pd.DataFrame([inputs])
+    
+   
+    ultimate_pipe = joblib.load("ultimate_pipe_ds1.joblib")
+    
+
+    prob = ultimate_pipe.predict_proba(x_raw)[0,1]
+    pred = int(prob >= 0.5)
+    
+    st.subheader("Prediction result")
+    st.metric("Probability of recurrence", f"{prob:.3f}")
+    st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
+    st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
+    
+
     try:
-       
-        x_raw = pd.DataFrame([inputs])
-        x_processed = preprocessor.transform(x_raw)
-        cols_55 = preprocessor.get_feature_names_out()
-        x_processed_df = pd.DataFrame(x_processed, columns=cols_55)
+        st.subheader("SHAP Explanation")
         
-  
-        # 获取 SHAP 背景数据的所有列名（并剔除可能生成的空序号列）
-        bg_cols = [c for c in bg.columns if 'Unnamed' not in c]
+        
+        actual_model = ultimate_pipe.named_steps['classifier']
+
+        x_processed_29 = ultimate_pipe[:-1].transform(x_raw)
         
      
-        try:
-          
-            x_final = x_processed_df[bg_cols]
-        except KeyError:
-          
-            clean_cols = [c.split('__')[-1] if '__' in c else c for c in cols_55]
-            x_processed_df.columns = clean_cols
-            x_final = x_processed_df[bg_cols]
-            
-
-        prob = model.predict_proba(x_final)[0,1]
-        pred = int(prob >= 0.5)
+        feature_names_29 = ultimate_pipe[:-1].get_feature_names_out()
+        x_shap_df = pd.DataFrame(x_processed_29, columns=feature_names_29)
         
-        st.subheader("Prediction result")
-        st.metric("Probability of recurrence", f"{prob:.3f}")
-        st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
-        st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
         
-
+        explainer = shap.TreeExplainer(actual_model)
+        shap_values = explainer(x_shap_df)
+        
+        fig, ax = plt.subplots()
+        shap.plots.waterfall(shap_values[0], show=False)
+        st.pyplot(fig)
         
     except Exception as e:
-   
-        st.error("🚨 最后的挣扎：对齐失败！请截图发给我：")
-        st.info(f"大夫想要的特征 (bg_sample 里的前 8 个): {bg_cols[:8]}")
-        st.info(f"翻译官给出的特征 (去前缀后的前 8 个): {list(x_processed_df.columns)[:8]}")
+        st.warning(f"SHAP 图生成遇到小问题，但不影响上面的预测结果！报错信息：{e}")
