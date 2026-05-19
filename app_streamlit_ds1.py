@@ -34,16 +34,36 @@ with st.sidebar:
     submit = st.button("Predict and explain")
 
 if submit:
-  
-    x = pd.DataFrame([inputs])[meta["selected_features"]]
+    try:
+        x_raw = pd.DataFrame([inputs])
+        
+   
+        x_processed = preprocessor.transform(x_raw)
+        
+        if hasattr(preprocessor, "get_feature_names_out") and hasattr(model, "feature_names_in_"):
+         
+            processed_cols = preprocessor.get_feature_names_out()
+            x_processed_df = pd.DataFrame(x_processed, columns=processed_cols)
+            
+       
+            x_final = x_processed_df[model.feature_names_in_]
+        else:
+         
+            x_final = x_processed
+            
     
-
-    x_processed = preprocessor.transform(x)
-
-    prob = model.predict_proba(x_processed)[0,1]
-    
-    pred = int(prob >= 0.5)
-    st.subheader("Prediction result")
-    st.metric("Probability of recurrence", f"{prob:.3f}")
-    st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
-    st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
+        prob = model.predict_proba(x_final)[0,1]
+        pred = int(prob >= 0.5)
+        
+        st.subheader("Prediction result")
+        st.metric("Probability of recurrence", f"{prob:.3f}")
+        st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
+        st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
+        
+    except Exception as e:
+       
+        st.error("🚨 还是遇到了特征维度不匹配的难题！")
+        model_needs = getattr(model, 'n_features_in_', '未知')
+        you_provided = x_processed.shape[1] if 'x_processed' in locals() else '未知'
+        st.warning(f"情报侦测：你的模型需要 {model_needs} 列特征，但网页预处理输出了 {you_provided} 列。")
+        st.write("请直接把上面这个黄框截图发给我，我们就知道具体差了几列！")
