@@ -35,23 +35,28 @@ with st.sidebar:
 
 if submit:
     try:
+  
         x_raw = pd.DataFrame([inputs])
-        
-   
         x_processed = preprocessor.transform(x_raw)
+        cols_55 = preprocessor.get_feature_names_out()
+        x_processed_df = pd.DataFrame(x_processed, columns=cols_55)
         
-        if hasattr(preprocessor, "get_feature_names_out") and hasattr(model, "feature_names_in_"):
-         
-            processed_cols = preprocessor.get_feature_names_out()
-            x_processed_df = pd.DataFrame(x_processed, columns=processed_cols)
-            
-       
-            x_final = x_processed_df[model.feature_names_in_]
+
+        target_key = None
+        for k, v in meta.items():
+            # 寻找：必须是列表，长度必须刚好是 29，且名字能在这 55 列里找得到
+            if isinstance(v, list) and len(v) == 29 and all(feat in cols_55 for feat in v):
+                target_key = k
+                break
+        
+        if target_key:
+        
+            x_final = x_processed_df[meta[target_key]]
         else:
-         
-            x_final = x_processed
+           
+            raise ValueError("糟糕！在 meta_ds1.json 中找到了特征，但名字和前缀对不上！")
             
-    
+      
         prob = model.predict_proba(x_final)[0,1]
         pred = int(prob >= 0.5)
         
@@ -61,13 +66,7 @@ if submit:
         st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
         
     except Exception as e:
-        st.error("🚨 侦察兵拦截到了真实的底层报错！请把下面这三条情报截图发给我：")
-        
-
-        st.code(f"错误类型: {type(e).__name__}\n详细原因: {str(e)}")
-
-        if hasattr(model, 'feature_names_in_'):
-            st.info(f"👉 模型点名要的 29 个特征 (前 8 个): {list(model.feature_names_in_[:8])}")
-            
-        if 'processed_cols' in locals():
-            st.info(f"👉 翻译官给出的 55 个特征 (前 8 个): {list(processed_cols[:8])}")
+       
+        st.error(f"🚨 侦察兵最终报告: {str(e)}")
+        st.write("肯定是名字的前缀（比如 num__ 或 cat__）被去掉了！请把下面这个字典截图发给我，我一眼就能看出名单藏在哪个键里：")
+        st.json({k: (f"包含 {len(v)} 个元素" if isinstance(v, list) else "其它") for k, v in meta.items()})
