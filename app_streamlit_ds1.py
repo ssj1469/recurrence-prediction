@@ -32,38 +32,47 @@ with st.sidebar:
     submit = st.button("Predict and explain")
 
 if submit:
+    
+    x_raw = pd.DataFrame([inputs])
+    
+    
+    prob = ultimate_pipe.predict_proba(x_raw)[0,1]
+    pred = int(prob >= 0.5)
+    
+    st.subheader("Prediction result")
+    st.metric("Probability of recurrence", f"{prob:.3f}")
+    st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
+    st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
+    
+
     try:
-     
-        x_raw = pd.DataFrame([inputs])
-        
-        prob = ultimate_pipe.predict_proba(x_raw)[0,1]
-        pred = int(prob >= 0.5)
-        
-        st.subheader("Prediction result")
-        st.metric("Probability of recurrence", f"{prob:.3f}")
-        st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
-        st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
-        
- 
         st.subheader("SHAP Explanation")
         
-
-        actual_model = ultimate_pipe.named_steps['classifier']
+        preprocessor_step = ultimate_pipe[0]
+        selector_step = ultimate_pipe[1]
+        classifier_step = ultimate_pipe[-1]
         
-  
+        
         x_processed_29 = ultimate_pipe[:-1].transform(x_raw)
         
-     
-        feature_names_29 = ultimate_pipe[:-1].get_feature_names_out()
-        x_shap_df = pd.DataFrame(x_processed_29, columns=feature_names_29)
         
-
-        explainer = shap.TreeExplainer(actual_model)
+  
+        cols_55 = np.array(preprocessor_step.get_feature_names_out())
+      
+        support_mask = selector_step.support_
+      
+        feature_names_29 = cols_55[support_mask]
+        
+     
+        x_shap_df = pd.DataFrame(x_processed_29, columns=feature_names_29)
+        explainer = shap.TreeExplainer(classifier_step)
         shap_values = explainer(x_shap_df)
         
+   
         fig, ax = plt.subplots()
         shap.plots.waterfall(shap_values[0], show=False)
         st.pyplot(fig)
         
     except Exception as e:
-        st.error(f"🚨 报错了: {e}")
+ 
+        st.error(f"🚨 SHAP 图渲染失败，但预测结果已成功生成！报错详情: {e}")
