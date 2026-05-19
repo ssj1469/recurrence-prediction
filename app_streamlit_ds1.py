@@ -61,9 +61,13 @@ if submit:
         st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
         
     except Exception as e:
-       
-        st.error("🚨 还是遇到了特征维度不匹配的难题！")
-        model_needs = getattr(model, 'n_features_in_', '未知')
-        you_provided = x_processed.shape[1] if 'x_processed' in locals() else '未知'
-        st.warning(f"情报侦测：你的模型需要 {model_needs} 列特征，但网页预处理输出了 {you_provided} 列。")
-        st.write("请直接把上面这个黄框截图发给我，我们就知道具体差了几列！")
+        st.error("🚨 侦察兵拦截到了真实的底层报错！请把下面这三条情报截图发给我：")
+        
+
+        st.code(f"错误类型: {type(e).__name__}\n详细原因: {str(e)}")
+
+        if hasattr(model, 'feature_names_in_'):
+            st.info(f"👉 模型点名要的 29 个特征 (前 8 个): {list(model.feature_names_in_[:8])}")
+            
+        if 'processed_cols' in locals():
+            st.info(f"👉 翻译官给出的 55 个特征 (前 8 个): {list(processed_cols[:8])}")
