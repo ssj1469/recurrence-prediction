@@ -3,14 +3,12 @@ import pandas as pd
 import numpy as np
 import shap
 import joblib, json
-from pathlib import Path
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Recurrence prediction (Dataset 1)", layout="wide")
 
 
-model = joblib.load("final_pipe_ds1.joblib")
-preprocessor = joblib.load("preprocessor_ds1.pkl")
+ultimate_pipe = joblib.load("ultimate_pipe_ds1.joblib")
 
 with open("meta_ds1.json", "r", encoding="utf-8") as f:
     meta = json.load(f)
@@ -34,35 +32,32 @@ with st.sidebar:
     submit = st.button("Predict and explain")
 
 if submit:
-
-    x_raw = pd.DataFrame([inputs])
-    
-   
-    ultimate_pipe = joblib.load("ultimate_pipe_ds1.joblib")
-    
-
-    prob = ultimate_pipe.predict_proba(x_raw)[0,1]
-    pred = int(prob >= 0.5)
-    
-    st.subheader("Prediction result")
-    st.metric("Probability of recurrence", f"{prob:.3f}")
-    st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
-    st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
-    
-
     try:
+     
+        x_raw = pd.DataFrame([inputs])
+        
+        prob = ultimate_pipe.predict_proba(x_raw)[0,1]
+        pred = int(prob >= 0.5)
+        
+        st.subheader("Prediction result")
+        st.metric("Probability of recurrence", f"{prob:.3f}")
+        st.write("Predicted class:", "**Recurred (1)**" if pred==1 else "**Non-recurred (0)**")
+        st.caption("Note: This tool is for research/demo only. Clinical decisions must rely on professional judgement.")
+        
+ 
         st.subheader("SHAP Explanation")
         
-        
-        actual_model = ultimate_pipe.named_steps['classifier']
 
+        actual_model = ultimate_pipe.named_steps['classifier']
+        
+  
         x_processed_29 = ultimate_pipe[:-1].transform(x_raw)
         
      
         feature_names_29 = ultimate_pipe[:-1].get_feature_names_out()
         x_shap_df = pd.DataFrame(x_processed_29, columns=feature_names_29)
         
-        
+
         explainer = shap.TreeExplainer(actual_model)
         shap_values = explainer(x_shap_df)
         
@@ -71,4 +66,4 @@ if submit:
         st.pyplot(fig)
         
     except Exception as e:
-        st.warning(f"SHAP 图生成遇到小问题，但不影响上面的预测结果！报错信息：{e}")
+        st.error(f"🚨 报错了: {e}")
