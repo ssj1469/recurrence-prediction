@@ -9,6 +9,12 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Recurrence prediction (Dataset 1)", layout="wide")
 
 
+model = joblib.load("final_pipe_ds1.joblib")
+preprocessor = joblib.load("preprocessor_ds1.pkl")
+
+with open("meta_ds1.json", "r", encoding="utf-8") as f:
+    meta = json.load(f)
+bg = pd.read_csv("bg_sample_ds1.csv")
 
 st.title("Recurrence prediction and SHAP explanation (Dataset 1)")
 st.markdown("Please input patient features in the sidebar, then click the button to predict recurrence and view SHAP waterfall plot.")
