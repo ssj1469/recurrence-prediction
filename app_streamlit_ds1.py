@@ -8,16 +8,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Recurrence prediction (Dataset 1)", layout="wide")
 
-ART_DIR = Path(r"D:\dataset2\dataset1\dataset1\20260306-数据集1结果图-01\artifacts")
 
-# 加载模型
-model = joblib.load(ART_DIR / "final_pipe_ds1.joblib")
-# 👇 【修改点1】：新增这一句，把刚才保存的“超级翻译官”请进网页后台
-preprocessor = joblib.load(ART_DIR / "preprocessor_ds1.pkl")
-
-with open(ART_DIR / "meta_ds1.json", "r", encoding="utf-8") as f:
-    meta = json.load(f)
-bg = pd.read_csv(ART_DIR / "bg_sample_ds1.csv")
 
 st.title("Recurrence prediction and SHAP explanation (Dataset 1)")
 st.markdown("Please input patient features in the sidebar, then click the button to predict recurrence and view SHAP waterfall plot.")
