@@ -3,18 +3,21 @@ import pandas as pd
 import numpy as np
 import shap
 import joblib, json
-import sklearn  
-import dice_ml  
 from pathlib import Path
 import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Recurrence prediction (Dataset 1)", layout="wide")
 
+ART_DIR = Path(r"D:\dataset2\dataset1\dataset1\20260306-数据集1结果图-01\artifacts")
 
-model = joblib.load("final_pipe_ds1.joblib")
-with open("meta_ds1.json", "r", encoding="utf-8") as f:
+# 加载模型
+model = joblib.load(ART_DIR / "final_pipe_ds1.joblib")
+# 👇 【修改点1】：新增这一句，把刚才保存的“超级翻译官”请进网页后台
+preprocessor = joblib.load(ART_DIR / "preprocessor_ds1.pkl")
+
+with open(ART_DIR / "meta_ds1.json", "r", encoding="utf-8") as f:
     meta = json.load(f)
-bg = pd.read_csv("bg_sample_ds1.csv")
+bg = pd.read_csv(ART_DIR / "bg_sample_ds1.csv")
 
 st.title("Recurrence prediction and SHAP explanation (Dataset 1)")
 st.markdown("Please input patient features in the sidebar, then click the button to predict recurrence and view SHAP waterfall plot.")
@@ -34,8 +37,14 @@ with st.sidebar:
     submit = st.button("Predict and explain")
 
 if submit:
+  
     x = pd.DataFrame([inputs])[meta["selected_features"]]
-    prob = model.predict_proba(x)[0,1]
+    
+
+    x_processed = preprocessor.transform(x)
+
+    prob = model.predict_proba(x_processed)[0,1]
+    
     pred = int(prob >= 0.5)
     st.subheader("Prediction result")
     st.metric("Probability of recurrence", f"{prob:.3f}")
